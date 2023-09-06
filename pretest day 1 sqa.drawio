@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T13:44:14.862Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="4kX-6X7u5H6vx73MulNU" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T13:49:56.931Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6Qmx5ErKvGbnzq_qa9dU" version="21.7.2" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1035" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="978" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,16 +38,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5HVlAv0M6LLN2Jrp2UyM-11" value="Poin = Jumlah_Belanja / 50.000" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="336" y="356" width="250" height="100" as="geometry" />
+          <mxGeometry x="681" y="490" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5HVlAv0M6LLN2Jrp2UyM-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="461" y="318" as="sourcePoint" />
+            <mxPoint x="461" y="320" as="sourcePoint" />
             <mxPoint x="461" y="357" as="targetPoint" />
             <Array as="points">
               <mxPoint x="461" y="357" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5HVlAv0M6LLN2Jrp2UyM-13" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="411" y="357" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5HVlAv0M6LLN2Jrp2UyM-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5HVlAv0M6LLN2Jrp2UyM-13" target="5HVlAv0M6LLN2Jrp2UyM-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="350" as="sourcePoint" />
+            <mxPoint x="590" y="389" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="781" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HVlAv0M6LLN2Jrp2UyM-16" value="Jumlah belanja &amp;gt; 50.000" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="577" y="380" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
